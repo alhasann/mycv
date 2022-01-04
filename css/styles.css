@@ -1,0 +1,146 @@
+  /* general tag selectors */ 
+body{ 
+    text-align:center ; 
+    margin:0px; 
+    font-family: 'Merriweather', serif;
+  
+}
+h1{
+    margin: 50px auto 0 auto ;
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+    color:#FF8426;
+ 
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5 rem ; 
+    color:#FF8426;
+    font-weight:normal;
+    padding-bottom:10px; 
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color:#BAAF92; 
+    text-align:left; 
+
+}
+a{ 
+    color:white; 
+    margin:auto 10px; 
+    text-decoration: none;
+}
+a:hover{ 
+    text-decoration: underline;
+}
+p { 
+    line-height:2; 
+}
+hr{
+    border: dotted 6px  #BAAF92;
+    border-bottom:none; 
+    width: 10% ; 
+    margin:100px auto ; 
+
+}
+
+
+/* top middle and bottom containers */ 
+.top-container{
+    background-color:#F2EEE3;
+    position:relative; 
+    padding-top:100px; 
+
+    height:837px; 
+ 
+
+}
+.middle-container{
+    margin: 100px 0px ;
+
+}
+    
+.bottom-container{ 
+    background-color:#785E4D; 
+    margin-top:100px; 
+    padding:50px 0 20px 0 ; 
+    color:white; 
+}
+
+/*images*/
+
+.mountain{ 
+    position:absolute; 
+    bottom:0px; 
+    right:40%; 
+    display:inline-block;
+    width:55%;
+}
+.top-cloud{
+    position:absolute; 
+    right:300px; 
+    top: 50px; 
+    width:20%;
+}
+.bottom-cloud{ 
+    position:absolute; 
+    left:300px; 
+    bottom:600px; 
+
+}
+
+.sa{ 
+    width:20% ; 
+    float:left;
+    margin-right:30px; 
+}
+.vd{ 
+    width:20%; 
+    float:right; 
+    margin-left:30px; 
+}
+.me{
+    width:200px ; 
+    height:200px; 
+ 
+
+}
+/*geral selectors*/
+.eng{ 
+    text-decoration:underline; 
+}
+#heart{ 
+    color:red; 
+}
+
+.btn {
+   
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    background: #ff8426;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #785E4D;
+    text-decoration: none;
+  }
+
+  .icanhelpyou{ 
+     text-align:center; 
+  }
+  .intro{ 
+      width:30% ;
+      margin:0 auto ; 
+  }
+  /* skill row */ 
+.skill-row{ 
+    width:50%; 
+    margin: 100px auto 200px auto;
+    text-align:left;
+    }
